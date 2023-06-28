@@ -79,7 +79,7 @@ link1.addEventListener('mouseover', () => {
   link1.style.backgroundColor = color2;
   link3.style.backgroundColor = color1;
   link2.style.backgroundColor = color1;
-  document.getElementById("about__nav__right").style.backgroundImage = 'url(../assets/images/boris.webp)';
+  document.getElementById("about__nav__right").style.backgroundImage = 'url(../assets/images/boris.jpg)';
   document.getElementById("title__changing").innerHTML = "Choisir Infomaniak, c'est être engagé dans l'économie de demain. Vie Privée, local et durable sont les valeurs d'Infomaniak depuis 29 ans.";
   document.getElementById("text__changing").innerHTML = "Boris siegenthaler, Co-fondateur et CSO ";
 });
@@ -88,7 +88,7 @@ link2.addEventListener('mouseover', () => {
   link1.style.backgroundColor = color1;
   link3.style.backgroundColor = color1;
   link2.style.backgroundColor = color2;
-  document.getElementById("about__nav__right").style.backgroundImage = 'url(../assets/images/test.webp)';
+  document.getElementById("about__nav__right").style.backgroundImage = 'url(../assets/images/test.jpg)';
   document.getElementById("title__changing").innerHTML = "Nous ne pouvons pas sauver le monde en respectant les règles actuelles, car les règles ont besoin d'être changées. Tout doit changer et cela doit être démarrer aujourd'hui.";
   document.getElementById("text__changing").innerHTML = "Alexandre Patti, Conpliance Officer (CO)";
 });
@@ -97,7 +97,7 @@ link3.addEventListener('mouseover', () => {
   link1.style.backgroundColor = color1;
   link3.style.backgroundColor = color2;
   link2.style.backgroundColor = color1;
-  document.getElementById("about__nav__right").style.backgroundImage ='url(../assets/images/hire.webp)';
+  document.getElementById("about__nav__right").style.backgroundImage ='url(../assets/images/hire.jpg)';
   document.getElementById("title__changing").innerHTML = "Ne venez pas travailler ici... Vous n'allez plus pouvoir repartir";
   document.getElementById("text__changing").innerHTML = "Thibault, Front-end developer";
 });
