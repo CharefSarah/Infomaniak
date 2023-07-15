@@ -89,8 +89,7 @@ nav {
   width: 25%;
   height: 4px;
   background-color: var(--clr_blue1);
-  transition: 0.01s;
-  display: none;
+  transition: width 0.4s linear ease-in-out;
 }
 
 .nav__cursor:hover {
@@ -679,4 +678,7 @@ header {
 
 .visible {
   display: flex;
+}
+.visible {
+  transition: transform 0.2s ease-in;
 }

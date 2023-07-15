@@ -104,7 +104,6 @@ link3.addEventListener('mouseover', () => {
 
 first__link.addEventListener('mouseover', () => {
   first__link .style.backgroundColor = color2;
-  second__link .style.backgroundColor = color1;
   last__link .style.backgroundColor = color1;
   
 
